@@ -1,4 +1,4 @@
-# Resonance
+# Resonance_Version_3
 
 Resonance is a fully offline desktop music player with a frequency-reactive canvas visualizer. It reads local audio folders, plays the queue with standard controls, and maps FFT frequency energy to the interface palette, pulse rings, spectrum bars, and profile meters.
 
@@ -31,3 +31,5 @@ Open `index.html` directly or serve the folder with any static web server. The b
 ## Audio mapping
 
 The visualizer uses the Web Audio API `AnalyserNode` with an FFT size of `256`. It groups the returned spectrum bins into bass, mids, and treble ranges. Bass drives large pulse rings, mids guide color palette changes, and treble drives fine details and sparkle intensity. The mapping is documented in `js/visualizer.js`.
+
+https://github.com/user-attachments/assets/e8078dec-2341-4c7a-9049-b006a0912d04
